@@ -1,18 +1,17 @@
 #include <stdio.h>
 /**
-* main - write a program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
+* main - print only when the number is (+) postive, (0) zero, or  (-) negative
 *
-* Description: All your code should be in the main function
-* this program prints "write a program tha a new line".
+* Description: using the main function
+* this program prints "Programming is positive, zero, or negative
 * Return: 0
 */
 int main(void)
 {
-int i;
-
-for (i = 0; i < 10; i++)
+int num;
+for (num = 0; num < 10; num++)
 {
-	printf("%i", i);
+	printf("%num", num);
 }
 printf("\n");
 return (0);
