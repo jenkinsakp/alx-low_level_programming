@@ -2,16 +2,16 @@
 /**
 * print number if is + (postive),0 ( zero), or - (negative)
 *
-*  us the main function
+*Description: us the main function
 *
 */
 int main(void)
 {
-char ch;
+char akp;
 
-for (ch = 'a' ; ch <= 'z' ; ch++)
+for (akp = 'a' ; ch <= 'z' ; akp++)
 {
-	putchar(ch);
+	putchar(akp);
 }
 putchar('\n');
 return (0);
