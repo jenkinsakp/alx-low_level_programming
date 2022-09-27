@@ -2,7 +2,12 @@
 #include <stdio.h>
 
 /**
-  * You are allowed to use the standard library
+  * print_diagsums - Print the sum of two diagonals of square matrix
+  *
+  * @a: the matrix
+  * @size: the size
+  *
+  * Return: Nothing.
   */
 void print_diagsums(int *a, int size)
 {
