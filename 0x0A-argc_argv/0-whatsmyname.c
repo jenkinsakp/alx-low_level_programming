@@ -1,19 +1,19 @@
 
-#include <stdio.h>                                                                                                                   
-#include "main.h"                                                                                                                    
+#include "holberton.h"
+#include <stdio.h>
 
-/**                                                                                                                                  
- * Display the name of the program                                                                                              
- * @argc: Count arguments                                                                                                            
- * @argv: Arguments                                                                                                                  
- *                                                                                                                                   
- * Return: Always 0 (Success)                                                                                                        
- */                                                                                                                                  
+/**
+  * main - Prints its name
+  * @argc: argument count
+  * @argv: argument vector
+  *
+  * Return: Always zero
+  */
+int main(int argc, char *argv[])
+{
+	(void) argc;
+	printf("%s\n", argv[0]);
 
-int main(int argc, char *argv[])                                                                                                     
-{                                                                                                                                    
-(void) argc;                                                                                                                         
-printf("%s\n", argv[0]);                                                                                                             
-                                                                                                                                     
-return (0);                                                                                                                          
+	return (0);
 }
+
