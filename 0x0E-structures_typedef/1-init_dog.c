@@ -1,8 +1,7 @@
-#include <stdlib.h> 
-include "dog.h"
+#include <stdlib.h> include "dog.h"
 
 /**
- * init_dog - variable for type struct dog
+ * init_dog - initialize a variable of type struct dog
  *@d: array
  *@name: name
  *@age: age
@@ -20,5 +19,3 @@ void init_dog(struct dog *d, char *name, float age, char *owner) {
 		d->age = age;
 		d->owner = owner;
 	}
-
-}
